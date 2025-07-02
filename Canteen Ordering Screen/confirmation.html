@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Confirmation</title>
+    <link rel="stylesheet" href="css/confirmation.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-qrcode/1.0/jquery.qrcode.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Order Confirmation</h1>
+        
+        <h2>Your Order Summary</h2>
+        <div id="orderSummaryContainer"></div>
+        
+        <h2>Estimated Pickup Time</h2>
+        <p id="pickupTime"></p>
+
+        <h2>Order Number</h2>
+        <p id="orderNumber"></p>
+
+        <h2>QR Code</h2>
+        <div id="qrcode"></div>
+
+        <button id="returnHome">Return to Home</button>
+    </div>
+
+    <script src="js/confirmation.js"></script>
+</body>
+</html>
